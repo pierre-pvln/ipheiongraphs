@@ -19,7 +19,7 @@
     <license>GNU General Public License version 2</license>
 
     <!--  The version string for this extension; is recorded in the #__extensions table -->
-    <version>0.0.0.6</version>
+    <version>0.0.1.1</version>
 
     <!-- The description is optional and defaults to the name; translatable field -->
     <description>MOD_IPHEIONGRAPHS_XML_DESCRIPTION</description>
@@ -60,25 +60,20 @@
                 cols="30"
                 rows="5"
             />
-            <field name="mapbox_accesstoken"
+            <field name="ships_data_url"
                 type="text"
-                label="Mapbox Accesstoken"
-                description="MOD_IPHEIONGRAPHS_MAPBOX_ACCESSTOKEN">
+                label="Ships Data Url"
+                description="MOD_IPHEIONGRAPHS_SHIPS_DATA_URL">
             </field>
-            <field name="polygon_data_url"
+            <field name="AIS_station_ID"
                 type="text"
-                label="Polygon Data Url"
-                description="MOD_IPHEIONGRAPHS_POLYGON_DATA_URL">
+                label="AIS Station ID"
+                description="MOD_IPHEIONGRAPHS_AIS_STATION_ID">
             </field>
-            <field name="window_latitude"
+            <field name="AIS_station_range"
                 type="text"
-                label="Window Latitude"
-                description="MOD_IPHEIONGRAPHS_WINDOW_LATITUDE">
-            </field>
-            <field name="window_longitude"
-                type="text"
-                label="Window Longitude"
-                description="MOD_IPHEIONGRAPHS_WINDOW_LONGITUDE">
+                label="Range to scan in Km"
+                description="MOD_IPHEIONGRAPHS_AIS_STATION_RANGE">
             </field>
         </fieldset>
     </fields>
