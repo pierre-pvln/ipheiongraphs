@@ -5,13 +5,13 @@
  * @copyright   Copyright (C) 2020 Pierre Veelen. All rights reserved.
  * @license     GNU General Public License version 2 or later.
  *
- * default.php  Used to output the data to html page. Therefore a lot of html code is included.  
+ * default.php  Used to output the data to html page.
  *
  */
 
 defined('_JEXEC') or die;
 
-$document = JFactory::getDocument();
+/* $document = JFactory::getDocument(); */
 /* $document->addScript('https://code.highcharts.com/highcharts.js'); */
 
 ?>
@@ -27,11 +27,10 @@ $document = JFactory::getDocument();
     <!-- Load highcharts graphs library -->
 	<script src="https://code.highcharts.com/highcharts.js"></script>
 	
-	<!-- Set required vars -->
+	<!-- Set required parameters -->
 	<script>
-	post_data = <?php echo '\'{"station_id":'.$params->get("AIS_station_ID").',"range":'.$params->get("AIS_station_range").'}\'' ?>
-	
-	ships_data_url = <?php echo '"'.$params->get("ships_data_url").'"' ?>
+	post_data = <?php echo '\'{"station_id":'.$params->get("AIS_station_ID").',"range":'.$params->get("AIS_station_range").'}\'' ?>;
+	ships_data_url = <?php echo '"'.$params->get("ships_data_url").'"' ?>;
     </script>
 	
 	<!-- load graph -->

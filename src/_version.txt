@@ -16,7 +16,7 @@
 # 
 # Patch releases indicate that bugs have been fixed.
 # 
-# devversion only used during development. Should be left empty in final production versioning
+# Development release only used during development. Should be left empty in final production versioning
 #
 # Changes should be commented in CHANGELOG.md
 #
