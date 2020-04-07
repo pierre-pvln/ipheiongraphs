@@ -19,7 +19,7 @@
     <license>GNU General Public License version 2</license>
 
     <!--  The version string for this extension; is recorded in the #__extensions table -->
-    <version>0.0.1.1</version>
+    <version>0.0.1.2</version>
 
     <!-- The description is optional and defaults to the name; translatable field -->
     <description>MOD_IPHEIONGRAPHS_XML_DESCRIPTION</description>
@@ -36,6 +36,12 @@
         <folder>tmpl</folder>
         <folder>language</folder>
     </files>
+	
+	<!-- files and folders used by this module -->
+	<!-- in folder media are put in \media\mod_ipheiongraphs\ -->
+	<media folder="media" destination="mod_ipheiongraphs">
+		<folder>js</folder>
+	</media>
 
     <!-- additional fields to be configured in joomla back-end for this module-->  
     <config>

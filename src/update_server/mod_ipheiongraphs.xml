@@ -3,14 +3,30 @@
 	<!-- See also https://docs.joomla.org/Deploying_an_Update_Server -->
 	<update>
 		<name>mod_ipheiongraphs</name>
-		<description>Module to list the installed extensions of a Joomla! website</description>
+		<description>Module to show highcharts graph in module on Joomla! website</description>
+		<maintainer>Pierre Veelen</maintainer>
+		<maintainerurl>http://www.pvln.nl</maintainerurl>
+        <element>mod_ipheiongraphs</element>
+		<type>module</type>
+		<client>0</client>
+		<version>0.0.1.2</version>
+		<infourl title="Show highcharts graph">http://www.pvln.nl/ipheiongraphs</infourl>
+		<downloads>
+			<downloadurl type="upgrade" format="zip">http://download.pvln.nl/joomla/modules/ipheiongraphs/mod_ipheiongraphs_v0.0.1.2.zip</downloadurl>
+		</downloads>
+		<targetplatform name="joomla" version="3" />
+	</update>
+
+	<update>
+		<name>mod_ipheiongraphs</name>
+		<description>Module to show highcharts graph in module on Joomla! website</description>
 		<maintainer>Pierre Veelen</maintainer>
 		<maintainerurl>http://www.pvln.nl</maintainerurl>
         <element>mod_ipheiongraphs</element>
 		<type>module</type>
 		<client>0</client>
 		<version>0.0.1.1</version>
-		<infourl title="List Installed Extensions">http://www.pvln.nl/ipheiongraphs</infourl>
+		<infourl title="Show highcharts graph">http://www.pvln.nl/ipheiongraphs</infourl>
 		<downloads>
 			<downloadurl type="upgrade" format="zip">http://download.pvln.nl/joomla/modules/ipheiongraphs/mod_ipheiongraphs_v0.0.1.1.zip</downloadurl>
 		</downloads>
