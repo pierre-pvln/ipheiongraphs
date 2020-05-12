@@ -1,0 +1,26 @@
+<html>
+    <head>
+		<title>Page with graph</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		
+		<!-- id should always be map-graph -->
+		<div id="map-graph" style='width:800px'></div>
+		
+		<!-- only needed in test version -->
+		<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+		
+		<!-- -->
+		<script src="https://code.highcharts.com/highcharts.js"></script>
+		
+		<!-- required variables should be set/generated from php script-->
+		<script>
+			ships_data_url = 'https://m77po5po52.execute-api.eu-central-1.amazonaws.com/dev/graph1DashGraphMaker'
+			post_data = '{"station_id":2303,"range":15}'
+ 		</script> 
+		
+		<!-- -->
+		<script type="text/javascript" src="../../src/media/js/graphs.js"></script>
+	</body>
+</html>
